@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+#contentBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.devGroups{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    position: relative;
+}
+#devGroup2{
+       margin-top:70px;
+}
+video{
+    height:410;
+    width:710;  
+    border:solid 3px #D6E3EC;
+    transition: 0.3s;
+}
+
+video:hover{
+      box-shadow: 0px 0px 10px 5px #D6E3EC;
+}
+source{
+    margin:0;
+}
+#video1{
+      margin-right:120px;
+      margin-left: 120px;     
+}
+#video2_info{
+      margin-right:120px;
+      margin-left: 120px;
+   
+}
+.videoInfo{
+       position:relative;
+        width:300px;
+}
+.videoInfo h4{
+    position: relative;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    display: inline-block; 
+    padding: 7px 4px 7px 4px;
+    border-bottom: solid 3px #296A77;
+}
+
+.description{
+    font-size:16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    margin-top: -10px;
+    line-height: 1.5;
+}
